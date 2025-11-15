@@ -405,7 +405,7 @@ with col2:
             Intervalo de confianza: {confidence_interval[0]:.1f}% - {confidence_interval[1]:.1f}%
         </div>
         <p style="margin-top: 1rem; color: #666;">
-            Basado en análisis de Machine Learning con datos de {10000:,} estudiantes
+            Basado en análisis de Machine Learning con datos de {400:,} estudiantes
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -484,7 +484,7 @@ with st.expander("🔧 Información Técnica del Modelo"):
     **Optimizador:** Adam  
     **Función de pérdida:** Mean Squared Error  
     **Métricas:** MAE, R²  
-    **Datos de entrenamiento:** 10,000+ estudiantes  
+    **Datos de entrenamiento:** 400+ estudiantes  
     **Última actualización:** """ + datetime.now().strftime("%B %Y"))
     
     # Mostrar distribución de probabilidades
